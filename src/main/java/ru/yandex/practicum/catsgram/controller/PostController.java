@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 public class PostController {
 
-    private final List<Post> posts = new ArrayList<>();
+    private List<Post> posts = new ArrayList<>();
 
     @GetMapping("/posts")
     public List<Post> findAll() {
@@ -19,7 +19,8 @@ public class PostController {
     }
 
     @PostMapping(value = "/post")
-    public void create(@RequestBody Post post) {
+    public Post create(@RequestBody Post post) {
         posts.add(post);
+        return post;
     }
 }
