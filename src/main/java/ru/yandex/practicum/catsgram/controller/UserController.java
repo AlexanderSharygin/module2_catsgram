@@ -1,5 +1,7 @@
 package ru.yandex.practicum.catsgram.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 import ru.yandex.practicum.catsgram.model.User;
 
@@ -18,6 +20,8 @@ public class UserController {
     public List<User> getAll() {
         return users;
     }
+
+
 
     @PostMapping(value = "/users")
     public User create(@RequestBody User user) {
