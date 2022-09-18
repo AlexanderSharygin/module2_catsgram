@@ -26,7 +26,7 @@ public class UserController {
     @PostMapping(value = "/users")
     public User create(@RequestBody User user) {
         if (!users.stream().filter(k -> k.getEmail().equals(user.getEmail())).collect(Collectors.toList()).isEmpty()) {
-            throw new UserAlreadyExistException("UserIsAlrteadyExist");
+            throw new UserAlreadyExistException("UserIsAlreadyExist");
         } else if (user.getEmail() == null || user.getEmail().isEmpty()) {
             throw new InvalidEmailException("email is null");
         }
