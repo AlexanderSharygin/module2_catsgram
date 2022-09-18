@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import ru.yandex.practicum.catsgram.model.Post;
 import ru.yandex.practicum.catsgram.service.PostService;
+import ru.yandex.practicum.catsgram.service.UserService;
 
 import java.util.ArrayList;
 import java.util.List;
