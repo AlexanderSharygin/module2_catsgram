@@ -1,0 +1,13 @@
+ru\yandex\practicum\catsgram\controller\SimpleController.class
+ru\yandex\practicum\catsgram\CatsgramApplication.class
+ru\yandex\practicum\catsgram\controller\PostFeedController.class
+ru\yandex\practicum\catsgram\controller\UserController.class
+ru\yandex\practicum\catsgram\model\Post.class
+ru\yandex\practicum\catsgram\service\UserService.class
+ru\yandex\practicum\catsgram\exception\UserNotFoundException.class
+ru\yandex\practicum\catsgram\controller\PostFeedController$FriendsParams.class
+ru\yandex\practicum\catsgram\exception\UserAlreadyExistException.class
+ru\yandex\practicum\catsgram\exception\InvalidEmailException.class
+ru\yandex\practicum\catsgram\controller\PostController.class
+ru\yandex\practicum\catsgram\service\PostService.class
+ru\yandex\practicum\catsgram\model\User.class
